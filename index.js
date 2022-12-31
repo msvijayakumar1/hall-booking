@@ -7,28 +7,28 @@ app.use(express.json())
 
 const rooms=[
     {
-        name:"Elite",
-        seats:100,
-        amenities:"wifi,projection screen,AC",
+        name:"Star",
+        seats:60,
+        amenities:"wifi connection,Security,AC",
         price:1500,
-        roomId:"abc",
+        roomId:"206",
         bookingDetails:[{
-            customerName:"mayu",
-            date:new Date("2021-10-10"),
+            customerName:"Rajan",
+            date:new Date("2022-12-31"),
             start:"07:00",
             end:"10:00",
             status:"confirmed"
         }]
     },
     {
-        name:"Premium",
-        seats:150,
-        amenities:"wifi,projection screen,AC",
+        name:"Star",
+        seats:100,
+        amenities:"wifi connection,projection screen,AC",
         price:2500,
-        roomId:"def",
+        roomId:"143",
         bookingDetails:[{
-            customerName:"baskar",
-            date:new Date("2021-10-11"),
+            customerName:"Rakesh",
+            date:new Date("2023-01-05"),
             start:"15:00",
             end:"17:00",
             status:"Payment Pending"
